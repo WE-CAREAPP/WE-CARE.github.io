@@ -24,14 +24,14 @@
   $contact->subject = 'Online Appointment Form';
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
+    'host' => 'gmail.com',
+    'username' => 'mzunye777@gmail.com',
+    'password' => 'muli',
     'port' => '587'
   );
-  */
+  
 
   $contact->add_message( $_POST['name'], 'Name');
   $contact->add_message( $_POST['email'], 'Email');
